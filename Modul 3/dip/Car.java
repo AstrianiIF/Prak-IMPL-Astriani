@@ -1,7 +1,8 @@
 class Car {
-    private final Engine engine;
 
-    public Car(Engine engine) {
+    private final EngineInterface engine;
+
+    public Car(EngineInterface engine) {
         this.engine = engine;
     }
 
